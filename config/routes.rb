@@ -53,5 +53,9 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  root 'application#hello'
+  root 'static_pages#home'
+  get 'static_pages/home'
+  get 'static_pages/about'
+  get 'static_pages/help'
+  
 end
