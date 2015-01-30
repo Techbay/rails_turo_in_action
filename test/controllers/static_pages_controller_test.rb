@@ -4,23 +4,23 @@ class StaticPagesControllerTest < ActionController::TestCase
   # test "the truth" do
   #   assert true
   # end
-  @@ptitle = " | Ruby on Rails Tutorial Sample App"
+  @@ptitle = "Ruby on Rails Tutorial Sample App"
   test "should get home" do
     get :home
     assert_response :success
-    assert_select "title","Home"+@@ptitle
+    assert_select "title",@@ptitle
   end
   
   test "should get help" do
     get :help
     assert_response :success
-    assert_select "title","Help"+@@ptitle
+    assert_select "title","Help | "+@@ptitle
   end  
   
   test "should get about" do 
     get :about
     assert_response :success
-    assert_select "title","About"+@@ptitle
+    assert_select "title","About | "+@@ptitle
   end
   
 end
