@@ -1,0 +1,3 @@
+[submodule "yongbo"]
+	path = yongbo
+	url = git@github.com:yongbo/HelloRails.git
