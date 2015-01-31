@@ -10,3 +10,6 @@
 [submodule "yongbo"]
 	path = yongbo
 	url = git@github.com:yongbo/HelloRails.git
+[submodule "ynzkai/hello_app"]
+	path = ynzkai/hello_app
+	url = https://github.com/ynzkai/hello_app.git
