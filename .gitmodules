@@ -1,0 +1,3 @@
+[submodule "sample_app"]
+	path = sample_app
+	url = /home/ubuntu/workplace/sample_app
