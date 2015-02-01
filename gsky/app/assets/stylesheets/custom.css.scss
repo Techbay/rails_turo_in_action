@@ -1,0 +1,84 @@
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+/*universal 通用的*/
+
+html {
+  overflow-y:scroll; /*如果页面溢出,则使用滚动条*/
+  }
+
+body {
+  padding-top : 60px; /*设置上内边距(body页签的内容和body顶部的距离)*/
+  }
+
+section {
+  overflow: auto;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.center {
+  text-align: center; /*任何类为.center的标签,其中包含的内容都会在页面居中显示.*/
+}
+
+.center h1 {
+  margin-bottom: 10px;
+}
+
+/*typography 排版 */
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 3em; letter-spacing: -2px; margin-bottom: 30px; text-align: center;
+}
+
+h2 {
+  font-size: 1.2em; letter-spacing: -1px; margin-bottom: 30px; text-align: center; font-weight: normal; color: #777;
+}
+
+p  {
+  font-size: 1.1em; line-height: 1.7em;
+}
+
+/* header */
+#logo {
+  float: left;
+  margin-right: 10px; font-size: 1.7em;
+  color: #fff; text-transform: uppercase; letter-spacing: -1px; padding-top: 9px; font-weight: bold;
+}
+
+#logo:hover {
+color: #fff;
+text-decoration: none;
+}
+
+/* footer 底部的CSS */
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea; color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small { 
+  float: left;
+}
+
+footer ul {
+  float: right; list-style: none;
+}
+
+footer ul li { 
+  float: left; margin-left: 15px;
+}
