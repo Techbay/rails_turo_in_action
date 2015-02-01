@@ -1,0 +1,3 @@
+I, [2015-01-05T21:25:13.863287 #14805]  INFO -- : Migrating to CreateUsers (20150102021916)
+I, [2015-01-05T21:25:14.080468 #14805]  INFO -- : Migrating to AddIndexToUsersEmail (20150102035605)
+I, [2015-01-05T21:25:14.269782 #14805]  INFO -- : Migrating to AddPasswordDigestToUsers (20150102041625)
