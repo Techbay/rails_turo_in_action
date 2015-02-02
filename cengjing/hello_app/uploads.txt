@@ -1,7 +1,0 @@
-$ ls
-README.md  cengjing/  gsky  qingxp9/  test  wild-flame/  ynzkai/  yongbo/
-
-User@PC2015 /d/web/ruby/web/rails_turo_in_action (cengjing)
-$ git add --all
-$ git commit -ma "cengjing"
-$ git push origin master
