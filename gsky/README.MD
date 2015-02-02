@@ -2,7 +2,8 @@
 The heroku is [here](https://polar-plains-9220.herokuapp.com/).
 
 This is practices  by gsky
-2015/01/30
+
+from 2015/01/30
 
 
 
