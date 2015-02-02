@@ -13,3 +13,6 @@
 [submodule "ynzkai/hello_app"]
 	path = ynzkai/hello_app
 	url = https://github.com/ynzkai/hello_app.git
+[submodule "ynzkai/toy_app"]
+	path = ynzkai/toy_app
+	url = https://github.com/ynzkai/toy_app.git
