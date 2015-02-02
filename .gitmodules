@@ -16,3 +16,6 @@
 [submodule "ynzkai/toy_app"]
 	path = ynzkai/toy_app
 	url = https://github.com/ynzkai/toy_app.git
+[submodule "HermanHu"]
+	path = HermanHu
+	url = https://github.com/Techbay/rails_turo_in_action.git
