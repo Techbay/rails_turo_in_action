@@ -62,9 +62,11 @@ class UserTest < ActiveSupport::TestCase
       assert_not @user.valid?
     end
 
-    # test "email shoud downcase" do
-    #   @user.email = "ttt@email.com".upcase
-    #   assert_not @user.valid?
-    # end
+    test "email shoud downcase" do
+      mixed_case_email =  "HH@email.com"
+      @user.email = mixed_case_email
+      @user.save
+      assert_equal mixed_case_email.downcase , @user.reload.email
+    end
 
 end
