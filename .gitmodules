@@ -16,3 +16,6 @@
 [submodule "ynzkai/toy_app"]
 	path = ynzkai/toy_app
 	url = https://github.com/ynzkai/toy_app.git
+[submodule "HermanHu/sample_app"]
+	path = HermanHu/sample_app
+	url = https://github.com/HermanHu/sample_app.git
