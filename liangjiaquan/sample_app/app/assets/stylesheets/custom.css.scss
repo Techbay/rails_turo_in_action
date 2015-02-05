@@ -7,7 +7,11 @@ $gray-medium-light: #eaeaea;
 $gray-light: #777;
 $gray: #555;
 $gray-darker: #222;
-
+@mixin box_sizing {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
 /* universal */
 
 html {
@@ -104,5 +108,14 @@ footer {
       float: left;
       margin-left: 15px;
     }
+  }
+  
+  /* miscellaneous */
+  .debug_dump {
+    clear: both;
+    float: left;
+    width: 100%;
+    margin-top: 45px;
+    @include box_sizing
   }
 }
