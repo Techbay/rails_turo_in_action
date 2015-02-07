@@ -7,5 +7,15 @@ class ActiveSupport::TestCase
   fixtures :all
   include ApplicationHelper
 
+  # 登录指定用户
+  def is_logged_in?
+    !session[:user_id].nil?
+  end
+
+  # 退出当前用户
+  def log_out
+    session.delete(:user_id)
+    @current_user = nil
+  end
   # Add more helper methods to be used by all tests here...
 end
