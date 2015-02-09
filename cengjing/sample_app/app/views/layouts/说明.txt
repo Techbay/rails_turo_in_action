@@ -1,0 +1,2 @@
+1、本地环境需要删除application.html第6行。
+<%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
