@@ -3,7 +3,12 @@
 <head>
   <title><%= full_title(yield(:title)) %></title>
   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+
+<script src="/assets/jquery.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/jquery_ujs.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/bootstrap.js?body=1" data-turbolinks-track="true"></script>
+<script src="/assets/turbolinks.js?body=1" data-turbolinks-track="true"></script>
+  
   <%= csrf_meta_tags %>
   <%= render 'layouts/shim' %>
 </head>
