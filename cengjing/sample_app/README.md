@@ -1,4 +1,7 @@
 == README
+C9平台地址：https://rails-turo-in-action2-cengjing.c9.io/
+Windows平台无法加载js，已手动添加js。
+
 # Ruby on Rails Tutorial: sample application
 This is the sample application for the [*Ruby on Rails Tutorial: Learn Web Development with Rails*](https://github.com/cengjing/rails_turo_in_action/tree/master/cengjing/sample_app) by [Ceng jing](https://github.com/cengjing/rails_turo_in_action/tree/master/cengjing/).
 
