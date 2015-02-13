@@ -15,7 +15,7 @@
                 <li><%= link_to "Settings", '#' %></li>
                 <li class="divider"></li>
                 <li>
-                  <%= link_to "Log out", logout_path, method: "get" %>
+                  <%= link_to "Log out", logout_path, method: "delete" %>
                 </li>
               </ul>
             </li>
