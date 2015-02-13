@@ -77,10 +77,28 @@ class UserTest < ActiveSupport::TestCase
   end
 	
 	test "authenticated? should return false for a user with nil digest" do
-	assert_not @user.authenticated?('')
+	assert_not @user.authenticated?(:remember, '')
 	end
  
   # test "the truth" do
   #   assert true
   # end
+  test "associated microposts should be destroyed" do
+	  @user.save
+		@user.microposts.create!(content: "Lorem ipsum")
+		assert_difference 'Micropost.count', -1 do
+		  @user.destroy
+		end
+	end
+
+  test "should follow and unfollow a user" do
+	  michael = users(:michael)
+		archer = users(:archer)
+		assert_not michael.following?(archer)
+		michael.follow(archer)
+		assert michael.following?(archer)
+		assert archer.followers.include?(michael)
+		michael.unfollow(archer)
+		assert_not michael.following?(archer)
+	end
 end
