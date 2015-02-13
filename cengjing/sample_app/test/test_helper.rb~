@@ -29,9 +29,9 @@ class ActiveSupport::TestCase
   end
 
   private
+  
+    defined?(post_via_redirect)
 
-    def integration_test?  
-      defined?(post_via_redirect)
-    end
+  end
   # Add more helper methods to be used by all tests here...
 end
